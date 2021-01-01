@@ -1,0 +1,28 @@
+body {
+    font: 36px Arial, sans-serif;
+  }
+  
+  #container {
+    position: relative;
+    height:1000px;  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #content-heading {
+    font-size:2.5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgba(229, 252, 97, 0.815);
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  #content {
+    font-size:0.5em;
+  }
+  
